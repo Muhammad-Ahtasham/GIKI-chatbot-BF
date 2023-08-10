@@ -153,7 +153,7 @@ async def chat(request_data:list):
         query = item.get("content")
         role = item.get("role")
         if query:
-            response_text = "love you" #process_query(user_id, query, user_history)
+            response_text = "OpenAI Key isnt working thats why this response is hardcoded. Just uncomment the code next to it to get bot responses" #process_query(user_id, query, user_history)
             item["response"] = response_text
             item["role"] = role
 
